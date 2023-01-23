@@ -1,0 +1,103 @@
+.container {
+    position: fixed; 
+    margin: 0 auto;
+    top:0px;
+    left:0px;
+    background-color: #849cf5;
+    width: 100%;
+    height: 100%;
+}
+
+.todo_wrap {
+    position: relative;
+    top: 140px;
+    margin: 0 auto;
+    width: 500px;
+    background-color: #3D47AF;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    padding:10px;
+}
+
+.tasks {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_wrap {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    border-radius: 18px;
+    width: 420px;
+    float: left;
+    background-color: #0A155A;
+    height: 50px;
+}
+
+.task {
+    margin: 10px;
+    width: 255px;
+    margin-top: 13px;
+}
+
+.btn {
+    color: white;
+    margin: 10px;
+    border:none;
+}
+
+.btn_complete {
+    color: white;
+    border-radius: 21px;
+    margin: 8px;
+    border: none;
+    width: 92px;
+    background-color: #D103FC;
+    height: 33px;
+}
+
+.btn_X {
+    background-color: #7D80AA;
+    border-radius: 15px;
+    width: 25px;
+    height: 30px;
+}
+
+.btn_add {
+    background-color: #D103FC;
+    height: 35px;
+    border-radius: 22px;
+    width: 46px;
+    height: 46px; 
+}
+
+.input {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border-radius: 12px;
+    border: none;
+}
+
+.complete { 
+    text-decoration: line-through;
+}
+
+.status_wrap{
+    display: flex;
+}
+
+.status {
+    margin-left: 70px;
+}
